@@ -209,7 +209,7 @@ const Current = ({
         ) : (
           selectedType && (
             <p className="mt-4 text-red-500">
-              No Booking found for "{selectedType}".
+              No Booking found for {selectedType}.
             </p>
           )
         )}
