@@ -46,7 +46,7 @@ const History = () => {
     name: "",
     relativeName: "",
     relation: "son",
-    amount: "",
+    // amount: "",
     paid: false,
   });
 
@@ -67,7 +67,7 @@ const History = () => {
       name: "",
       relativeName: "",
       relation: "son",
-      amount: "",
+      // amount: "",
       paid: false,
     });
     setIsModalOpen(false);
@@ -104,7 +104,7 @@ const History = () => {
       name: "",
       relativeName: "",
       relation: "son",
-      amount: "",
+      // amount: "",
       paid: false,
     });
   } catch (error) {
@@ -186,10 +186,10 @@ const handleDeleteBooking = async (id) => {
                       </strong>{" "}
                       {item.relativeName}
                     </p>
-                    <p className="flex">
+                    {/* <p className="flex">
                       <strong className="flex min-w-[110px]">Amount:</strong> ₹
                       {item.amount}
-                    </p>
+                    </p> */}
                     <p className="flex">
                       <strong className="flex min-w-[110px]">Status:</strong>{" "}
                       <span
@@ -295,14 +295,14 @@ const handleDeleteBooking = async (id) => {
                 onChange={handleFormValue}
                 className="w-full border px-3 py-2 rounded"
               />
-              <input
+              {/* <input
                 type="number"
                 name="amount"
                 placeholder="Amount"
                 value={formData.amount}
                 onChange={handleFormValue}
                 className="w-full border px-3 py-2 rounded"
-              />
+              /> */}
               <label className="flex items-center gap-2">
                 <input
                   type="checkbox"

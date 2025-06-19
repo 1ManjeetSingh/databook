@@ -9,7 +9,7 @@ const bookingSchema = new Schema({
   relativeName: { type: String, default: "" },
   relation: { type: String, enum: ['son', 'wife'], required: true },
   type: { type: String, enum: ['hp', 'bagadiya', 'bharatgas'], required: true },
-  amount: { type: Number, required: true },
+  amount: { type: Number },
   paid: { type: Boolean, required: true },
   createdAt: { type: Date, default: Date.now },
 });

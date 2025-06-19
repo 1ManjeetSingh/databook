@@ -36,7 +36,7 @@ export default function Home() {
     name: "",
     relativeName: "",
     relation: "son",
-    amount: "",
+    // amount: "",
     paid: false,
   });
 
@@ -57,7 +57,7 @@ export default function Home() {
     name: "",
     relativeName: "",
     relation: "son",
-    amount: "",
+    // amount: "",
     paid: false, 
     })
     setIsEditing(false);
@@ -94,7 +94,7 @@ export default function Home() {
       name: "",
       relativeName: "",
       relation: "son",
-      amount: "",
+      // amount: "",
       paid: false,
     });
   } catch (error) {
@@ -247,7 +247,7 @@ export default function Home() {
                 onChange={handleFormValue}
                 className="w-full border px-3 py-2 rounded"
               />
-              <input
+              {/* <input
                 type="number"
                 name="amount"
                 placeholder="Amount"
@@ -255,7 +255,7 @@ export default function Home() {
                 onChange={handleFormValue}
                 className="w-full border px-3 py-2 rounded"
                 required
-              />
+              /> */}
               <label className="flex items-center gap-2">
                 <input
                   type="checkbox"

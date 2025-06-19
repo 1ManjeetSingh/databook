@@ -144,10 +144,10 @@ const Current = ({
                   </strong>{" "}
                   {customer.relativeName}
                 </p>
-                <p className="flex">
+                {/* <p className="flex">
                   <strong className="flex min-w-[110px]">Amount:</strong> ₹
                   {customer.amount}
-                </p>
+                </p> */}
                 <p className="flex">
                   <strong className="flex min-w-[110px]">Status:</strong>{" "}
                   <span
